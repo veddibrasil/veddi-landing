@@ -5,13 +5,173 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Veddi — Seu restaurante online em minutos</title>
 
-  <meta name="description" content="Veddi é a plataforma completa para colocar seu restaurante, lanchonete ou delivery online em minutos. Cardápio digital, PIX automático, dashboard e muito mais." />
+  <meta name="description" content="Veddi é a plataforma completa para restaurantes, lanchonetes e delivery. Cardápio digital, pedidos online, PIX automático, carteira financeira e muito mais." />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="cardápio digital, sistema de delivery, pedidos online restaurante, PIX automático restaurante, plataforma delivery, gestão restaurante online, delivery sem aplicativo, cardápio online" />
+  <meta name="author" content="Veddi" />
+  <meta name="theme-color" content="#7A00A3" />
+  <link rel="canonical" href="https://veddi.com.br/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://veddi.com.br/" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Veddi" />
   <meta property="og:title" content="Veddi — Seu restaurante online em minutos" />
-  <meta property="og:description" content="Cardápio digital, PIX automático, gestão de pedidos e entrega em uma só plataforma. Comece grátis." />
-  <meta property="og:image" content="assets/images/og-image.png" />
+  <meta property="og:description" content="Cardápio digital, pedidos pelo seu link, PIX automático, gestão financeira e entrega — tudo em uma só plataforma. Comece grátis." />
+  <meta property="og:image" content="https://veddi.com.br/assets/images/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@veddibrasil" />
+  <meta name="twitter:title" content="Veddi — Seu restaurante online em minutos" />
+  <meta name="twitter:description" content="Cardápio digital, pedidos pelo seu link, PIX automático e gestão financeira. Comece grátis." />
+  <meta name="twitter:image" content="https://veddi.com.br/assets/images/og-image.png" />
+
+  <!-- Preload crítico -->
+  <link rel="preload" href="assets/images/veddi_logo_2.png" as="image" />
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Veddi",
+    "url": "https://veddi.com.br",
+    "logo": "https://veddi.com.br/assets/images/veddi_logo_2.png",
+    "description": "Plataforma completa para restaurantes, lanchonetes e delivery com cardápio digital, PIX automático e gestão financeira.",
+    "email": "contato@veddi.com.br",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-44-99188-6565",
+      "contactType": "customer service",
+      "availableLanguage": "Portuguese"
+    },
+    "sameAs": [
+      "https://www.facebook.com/veddibrasil",
+      "https://www.instagram.com/veddibrasil/"
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Veddi",
+    "url": "https://veddi.com.br"
+  }
+  </script>
+
+  <!-- JSON-LD: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Veddi",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Plataforma completa para restaurantes, lanchonetes e delivery com cardápio digital, PIX automático, controle de estoque e gestão financeira.",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "BRL",
+        "description": "50 pedidos por mês, 1 filial, cardápio digital e PIX"
+      },
+      {
+        "@type": "Offer",
+        "name": "Essencial",
+        "price": "59",
+        "priceCurrency": "BRL",
+        "description": "Pedidos ilimitados, 1 filial, todas as funcionalidades, suporte por chat"
+      },
+      {
+        "@type": "Offer",
+        "name": "Pro",
+        "price": "119",
+        "priceCurrency": "BRL",
+        "description": "Pedidos ilimitados, até 3 filiais, todas as funcionalidades, suporte prioritário"
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que é a taxa de setup de R$99?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "É uma taxa única de ativação cobrada ao contratar o plano Essencial ou PRO. Ela cobre a configuração inicial da sua loja e a integração de pagamentos. O plano Free não tem taxa de setup. Não existe cobrança recorrente dessa taxa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso cancelar minha assinatura a qualquer momento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Não existe fidelidade ou contrato de longo prazo. Você pode cancelar a assinatura quando quiser, direto pelo painel, sem burocracia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como funciona a confirmação automática do PIX?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Assim que o cliente paga via PIX, o banco envia a confirmação automaticamente para o Veddi. Em segundos, o pedido aparece como pago no seu painel — sem que você precise verificar nada manualmente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O plano Free tem alguma limitação importante?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O plano Free suporta até 50 pedidos por mês e cobra 1% sobre o valor de cada pedido. Não tem taxa de setup nem mensalidade. É ideal para quem está começando e quer validar o negócio."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Preciso de conhecimento técnico para configurar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O Veddi foi pensado para donos de restaurante, não para programadores. O painel é simples e visual, e você consegue configurar cardápio, entrega e pagamentos em poucos cliques."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Funciona tanto para delivery quanto para retirada no local?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. O cliente pode escolher entre delivery, retirada no local ou consumo no estabelecimento. Você configura quais modalidades deseja oferecer em cada filial."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como funciona o suporte a múltiplas filiais?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No plano PRO você pode cadastrar até 3 filiais em uma única conta. Cada filial tem seu próprio cardápio, horários de funcionamento, configurações de entrega e usuários independentes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O Veddi tem cupons e promoções?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Você pode criar cupons de desconto por percentual, valor fixo ou frete grátis. Cada cupom pode ter validade, limite de usos e valor mínimo de pedido."
+        }
+      }
+    ]
+  }
+  </script>
   <link rel="icon" type="image/png" href="./assets/images/favicon/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/ffavicon.svg" />
   <link rel="shortcut icon" href="./assets/images/favicon/ffavicon.ico" />
@@ -94,7 +254,7 @@
     </h1>
 
     <p class="hero__subtitle">
-      Cardápio digital, PIX automático, gestão de pedidos e entrega com frete calculado — tudo em um só lugar.
+      Cardápio digital, pedidos pelo seu link exclusivo, PIX automático, controle de estoque e carteira financeira — tudo em um só lugar.
     </p>
 
     <div class="hero__ctas">
@@ -111,7 +271,6 @@
     </div>
   </div>
 </section>
-
 
 <!-- ════════════════════════════════
      FUNCIONALIDADES
@@ -135,8 +294,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
           </svg>
         </div>
-        <h3 class="feature-card__title">Cardápio Digital com Pedidos em Tempo Real</h3>
-        <p class="feature-card__desc">Monte seu menu com categorias, fotos e preços. Receba e gerencie pedidos instantaneamente sem precisar de aplicativo.</p>
+        <h3 class="feature-card__title">Cardápio Digital por Categorias e Produtos</h3>
+        <p class="feature-card__desc">Monte seu menu com categorias, fotos, descrições e preços. Controle a disponibilidade de cada item diretamente pelo painel, sem precisar de aplicativo.</p>
       </article>
 
       <!-- 2. PIX Automático -->
@@ -157,8 +316,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"/>
           </svg>
         </div>
-        <h3 class="feature-card__title">Dashboard com Métricas e Controle de Estoque</h3>
-        <p class="feature-card__desc">Acompanhe pedidos, faturamento e estoque em tempo real. Tome decisões com dados, não com achismo.</p>
+        <h3 class="feature-card__title">Dashboard, Relatórios e Controle de Estoque</h3>
+        <p class="feature-card__desc">Painel em tempo real com pedidos do dia, faturamento e estoque. Relatórios de vendas por período para você tomar decisões com dados.</p>
       </article>
 
       <!-- 4. Entrega -->
@@ -168,35 +327,37 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/>
           </svg>
         </div>
-        <h3 class="feature-card__title">Entrega com Frete Automático por Distância</h3>
-        <p class="feature-card__desc">Configure zonas de entrega por bairro ou distância. O frete é calculado automaticamente no checkout do cliente.</p>
+        <h3 class="feature-card__title">Delivery, Retirada ou Consumo no Local</h3>
+        <p class="feature-card__desc">Configure as modalidades que seu negócio oferece. No delivery, o frete é calculado automaticamente por bairro ou distância no momento do pedido.</p>
       </article>
 
-      <!-- 5. Chat -->
+      <!-- 5. Link de Pedidos -->
       <article class="feature-card fade-in">
         <div class="feature-card__icon" aria-hidden="true">
           <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/>
           </svg>
         </div>
-        <h3 class="feature-card__title">Chat em Tempo Real com Clientes</h3>
-        <p class="feature-card__desc">Se comunique diretamente com o cliente em cada pedido. Sem telefone, sem confusão — tudo registrado na plataforma.</p>
+        <h3 class="feature-card__title">Pedidos pelo Seu Link Exclusivo</h3>
+        <p class="feature-card__desc">Cada empresa recebe um link próprio. Seus clientes montam o pedido, escolhem a modalidade e pagam — tudo sem baixar nenhum aplicativo.</p>
       </article>
 
-      <!-- 6. Cupons -->
+      <!-- 6. Carteira -->
       <article class="feature-card fade-in">
         <div class="feature-card__icon" aria-hidden="true">
           <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 14.25l6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0c1.1.128 1.907 1.077 1.907 2.185ZM9.75 9h.008v.008H9.75V9Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm4.125 4.5h.008v.008h-.008V13.5Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a2.25 2.25 0 0 0-2.25-2.25H15a3 3 0 1 1-6 0H5.25A2.25 2.25 0 0 0 3 12m18 0v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 9m18 0V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v3"/>
           </svg>
         </div>
-        <h3 class="feature-card__title">Cupons e Promoções</h3>
-        <p class="feature-card__desc">Crie cupons de desconto por percentual, valor fixo, frete grátis ou produto grátis. Atraia e fidelize seus clientes.</p>
+        <h3 class="feature-card__title">Carteira e Gestão Financeira</h3>
+        <p class="feature-card__desc">Acompanhe seu saldo, solicite saques e consulte o histórico de repasses em tempo real. Controle financeiro completo direto no painel da sua empresa.</p>
       </article>
 
     </div>
   </div>
 </section>
+
+
 
 
 <!-- ════════════════════════════════
@@ -222,20 +383,189 @@
 
       <div class="how__step fade-in">
         <div class="how__number" aria-hidden="true">2</div>
-        <h3 class="how__step-title">Configure seu cardápio</h3>
-        <p class="how__step-desc">Adicione categorias, produtos, fotos e configure as opções de entrega da sua loja.</p>
+        <h3 class="how__step-title">Monte seu cardápio e configure entregas</h3>
+        <p class="how__step-desc">Adicione categorias, produtos e fotos. Defina horários de funcionamento, zonas de entrega e modalidades disponíveis.</p>
       </div>
 
       <div class="how__step fade-in">
         <div class="how__number" aria-hidden="true">3</div>
-        <h3 class="how__step-title">Comece a receber pedidos</h3>
-        <p class="how__step-desc">Compartilhe seu link com os clientes e gerencie <span class="text-orange">todos os pedidos</span> pelo painel.</p>
+        <h3 class="how__step-title">Compartilhe seu link e receba pedidos</h3>
+        <p class="how__step-desc">Envie seu link para os clientes e gerencie <span class="text-orange">todos os pedidos em tempo real</span> pelo painel. Pagamentos confirmados automaticamente via PIX.</p>
       </div>
 
     </div>
 
     <div class="how__cta fade-in">
       <a href="https://app.veddi.com.br/cadastro" class="btn btn-primary">Comece agora — é grátis</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════
+     COMPARATIVO
+═════════════════════════════════ -->
+<section class="comparison" aria-labelledby="comparison-title">
+  <div class="container">
+    <div class="comparison__header">
+      <span class="section-label">Comparativo</span>
+      <h2 class="section-title" id="comparison-title">Veddi vs outros canais de venda</h2>
+      <p class="section-subtitle" style="margin-top:12px;">Veja por que cada vez mais restaurantes estão migrando para o canal próprio.</p>
+    </div>
+    <div class="comparison__table-wrap">
+      <table class="comparison__table" aria-label="Comparativo entre Veddi, marketplaces e WhatsApp manual">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col" class="comparison__th--veddi">Veddi</th>
+            <th scope="col">Marketplace</th>
+            <th scope="col">WhatsApp manual</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Comissão por pedido</td>
+            <td class="comparison__td--veddi"><strong>0% no plano pago</strong></td>
+            <td>15% – 30%</td>
+            <td>0%</td>
+          </tr>
+          <tr>
+            <td>Pagamento via PIX automático</td>
+            <td class="comparison__td--veddi">✓</td>
+            <td>✓</td>
+            <td>✗ Manual</td>
+          </tr>
+          <tr>
+            <td>Cardápio digital próprio</td>
+            <td class="comparison__td--veddi">✓ Sua marca</td>
+            <td>Compartilhado</td>
+            <td>✗</td>
+          </tr>
+          <tr>
+            <td>Dados dos seus clientes</td>
+            <td class="comparison__td--veddi">✓ São seus</td>
+            <td>✗ Do marketplace</td>
+            <td>Parcial</td>
+          </tr>
+          <tr>
+            <td>Controle de estoque e relatórios</td>
+            <td class="comparison__td--veddi">✓</td>
+            <td>Limitado</td>
+            <td>✗</td>
+          </tr>
+          <tr>
+            <td>Cupons e promoções</td>
+            <td class="comparison__td--veddi">✓</td>
+            <td>Com custo extra</td>
+            <td>✗</td>
+          </tr>
+          <tr>
+            <td>Sem dependência de plataforma</td>
+            <td class="comparison__td--veddi">✓</td>
+            <td>✗</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Custo mensal</td>
+            <td class="comparison__td--veddi"><strong>A partir de R$0</strong></td>
+            <td>Variável (% do faturamento)</td>
+            <td>R$0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════
+     PARA QUEM É
+═════════════════════════════════ -->
+<section class="audience" aria-labelledby="audience-title">
+  <div class="container">
+    <div class="audience__header">
+      <span class="section-label">Para quem é</span>
+      <h2 class="section-title" id="audience-title">Se você vende comida, o Veddi é para você</h2>
+      <p class="section-subtitle" style="margin-top:12px;">
+        De um negócio caseiro ao restaurante com filiais — a plataforma se adapta ao seu tamanho.
+      </p>
+    </div>
+    <div class="audience__grid">
+
+      <div class="audience__card fade-in">
+        <div class="audience__icon" aria-hidden="true">
+          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+            <circle cx="12" cy="12" r="9"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v9"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 12l6.364 6.364"/>
+            <circle cx="8.5" cy="9" r="1.2" fill="currentColor" stroke="none"/>
+            <circle cx="15" cy="10.5" r="1.2" fill="currentColor" stroke="none"/>
+            <circle cx="10" cy="16" r="1.2" fill="currentColor" stroke="none"/>
+          </svg>
+        </div>
+        <h3>Pizzaria</h3>
+        <p>Cardápio por sabores, combos e borda. Entrega por bairro com frete automático.</p>
+      </div>
+
+      <div class="audience__card fade-in">
+        <div class="audience__icon" aria-hidden="true">
+          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 9a7 7 0 0 1 14 0H5z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12.5h18"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 15.5c1.5-.6 1.5.6 3 0s1.5.6 3 0 1.5.6 3 0 1.5.6 3 0 1.5.6 3 0"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 18h16v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2z"/>
+          </svg>
+        </div>
+        <h3>Hamburgueria</h3>
+        <p>Monte seu burguer com adicionais, pontos de carne e bebidas. Pedido sem erro.</p>
+      </div>
+
+      <div class="audience__card fade-in">
+        <div class="audience__icon" aria-hidden="true">
+          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 3v4M8 3v4M10 3v4a2 2 0 0 1-4 0V7M8 8.5V21"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 3c0 0 3 2.5 3 7h-3V21"/>
+          </svg>
+        </div>
+        <h3>Restaurante e Marmitaria</h3>
+        <p>Cardápio diário, controle de estoque e relatório de vendas por período.</p>
+      </div>
+
+      <div class="audience__card fade-in">
+        <div class="audience__icon" aria-hidden="true">
+          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/>
+          </svg>
+        </div>
+        <h3>Comida Caseira e Saudável</h3>
+        <p>Venda pelo link sem precisar de aplicativo. Seus clientes pedem direto no celular.</p>
+      </div>
+
+      <div class="audience__card fade-in">
+        <div class="audience__icon" aria-hidden="true">
+          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 13h16"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 13Q12 22 20 13"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 4l-1 9"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 4l1 9"/>
+          </svg>
+        </div>
+        <h3>Sushi e Japoneses</h3>
+        <p>Peças individuais, combos e rodízio avulso. Pagamento PIX confirmado na hora.</p>
+      </div>
+
+      <div class="audience__card fade-in">
+        <div class="audience__icon" aria-hidden="true">
+          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10l-1.5 12a1.5 1.5 0 0 1-1.5 1.5h-4A1.5 1.5 0 0 1 8.5 20L7 8z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.5 8h13"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14.5 8V4M14.5 4l3-1.5"/>
+          </svg>
+        </div>
+        <h3>Açaí, Sucos e Lanchonete</h3>
+        <p>Itens simples com variações de tamanho e complementos. Rápido de configurar.</p>
+      </div>
+
     </div>
   </div>
 </section>
@@ -355,8 +685,27 @@
 
     </div>
 
+    <div class="pricing__trust" aria-label="Selos de confiança">
+      <div class="trust-badge">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
+        <span>Dados protegidos</span>
+      </div>
+      <div class="trust-badge">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z"/></svg>
+        <span>Sem cartão no Free</span>
+      </div>
+      <div class="trust-badge">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/></svg>
+        <span>Cancele quando quiser</span>
+      </div>
+      <div class="trust-badge">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+        <span>Suporte rápido</span>
+      </div>
+    </div>
+
     <p class="pricing__footnote">
-      <strong>Taxa de setup R$99</strong> cobrada uma única vez na ativação · Cancele quando quiser
+      <strong>Taxa de setup R$99</strong> cobrada uma única vez ao contratar plano pago · Free sem setup · Cancele quando quiser
     </p>
   </div>
 </section>
@@ -383,7 +732,7 @@
           <svg class="faq__chevron" fill="none" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
         </button>
         <div class="faq__answer">
-          <p>É uma taxa única de ativação cobrada uma só vez no momento em que você cria sua conta. Ela cobre a configuração inicial da sua loja e integração de pagamentos. Não existe cobrança recorrente dessa taxa.</p>
+          <p>É uma taxa única de ativação cobrada ao contratar o plano Essencial ou PRO. Ela cobre a configuração inicial da sua loja e a integração de pagamentos. O plano Free não tem taxa de setup. Não existe cobrança recorrente dessa taxa.</p>
         </div>
       </div>
 
@@ -413,7 +762,7 @@
           <svg class="faq__chevron" fill="none" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
         </button>
         <div class="faq__answer">
-          <p>O plano Free suporta até 50 pedidos por mês e cobra 1% sobre o valor de cada pedido. É ideal para quem está começando e quer validar o negócio. Quando crescer, é fácil migrar para um plano pago com pedidos ilimitados e 0% de taxa.</p>
+          <p>O plano Free suporta até 50 pedidos por mês e cobra 1% sobre o valor de cada pedido. Não tem taxa de setup nem mensalidade. É ideal para quem está começando e quer validar o negócio. Quando crescer, é fácil migrar para um plano pago com pedidos ilimitados e 0% de taxa.</p>
         </div>
       </div>
 
@@ -423,7 +772,17 @@
           <svg class="faq__chevron" fill="none" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
         </button>
         <div class="faq__answer">
-          <p>No plano PRO você pode cadastrar até 3 filiais em uma única conta. Cada filial tem seu próprio cardápio, horários de funcionamento, configurações de entrega e equipe independente. Você gerencia tudo a partir de um painel unificado.</p>
+          <p>No plano PRO você pode cadastrar até 3 filiais em uma única conta. Cada filial tem seu próprio cardápio, horários de funcionamento, configurações de entrega e usuários independentes. Você gerencia tudo a partir de um painel unificado com controle de papéis por filial.</p>
+        </div>
+      </div>
+
+      <div class="faq__item" role="listitem">
+        <button class="faq__question" aria-expanded="false">
+          O Veddi tem cupons e promoções?
+          <svg class="faq__chevron" fill="none" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+        </button>
+        <div class="faq__answer">
+          <p>Sim. Você pode criar cupons de desconto por percentual, valor fixo ou frete grátis. Cada cupom pode ter validade, limite de usos e valor mínimo de pedido. Ideal para atrair e fidelizar clientes.</p>
         </div>
       </div>
 
@@ -443,7 +802,7 @@
           <svg class="faq__chevron" fill="none" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
         </button>
         <div class="faq__answer">
-          <p>Sim. O cliente pode escolher entre delivery (com cálculo automático de frete), retirada no local ou consumo no estabelecimento. Você configura quais modalidades deseja oferecer em cada filial.</p>
+          <p>Sim. O cliente pode escolher entre delivery (com cálculo automático de frete por bairro ou distância), retirada no local ou consumo no estabelecimento. Você configura quais modalidades deseja oferecer em cada filial e pode alterar isso a qualquer momento.</p>
         </div>
       </div>
 
@@ -548,6 +907,15 @@
     </p>
   </div>
 </footer>
+
+<!-- Botão flutuante WhatsApp -->
+<a href="https://wa.me/5544991886565?text=Olá,%20gostaria%20de%20falar%20sobre%20o%20Veddi"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="whatsapp-float"
+   aria-label="Falar pelo WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
